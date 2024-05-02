@@ -16,7 +16,8 @@ const Nav = () => {
             SM IT Solution
           </span>
         </Navbar.Brand>
-        
+
+
         <Navbar.Collapse>
           <Navbar.Link href="#" active>
             Home
@@ -39,6 +40,7 @@ const Nav = () => {
           </Navbar.Link>
           <Navbar.Link href="#">Contact</Navbar.Link>
         </Navbar.Collapse>
+
       </Navbar>
     </div>
   );

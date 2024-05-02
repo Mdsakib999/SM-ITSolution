@@ -1,15 +1,16 @@
+import { Button } from 'flowbite-react';
 import React from 'react';
 
 const Home = () => {
     return (
-        <div className='b'>
+        <div className='b w-[90%] mx-auto flex items-center gap-4 justify-between'>
             {/* Text */}
-            <div>
-                <h1>Are You Looking For Best IT Service Provider?</h1>
-                <p>SM IT SOLUTION is Your Best Partner</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident sint quis cumque, beatae iste dignissimos?</p>
+            <div className='w-[50%]'>
+                <h1 className='text-5xl font-semibold '>Are You Looking For Best IT Service Provider?</h1>
+                <p className='text-4xl font-bold my-3'><span>SM IT SOLUTION</span> is Your Best Partner</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident sint quis cumque, beatae iste dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. In, asperiores.</p>
 
-                <button>Get Started</button>
+                <Button className='my-4' gradientDuoTone="redToYellow">Get In Touch</Button>
             </div>
 
             {/* Home images */}
