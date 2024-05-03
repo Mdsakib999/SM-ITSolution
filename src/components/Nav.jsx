@@ -3,6 +3,7 @@ import { Avatar, Dropdown, Navbar } from "flowbite-react";
 
 const Nav = () => {
   return (
+    <>
     <div>
       <Navbar fluid rounded>
         <Navbar.Brand href="#">
@@ -17,6 +18,7 @@ const Nav = () => {
           </span>
         </Navbar.Brand>
 
+        <Navbar.Toggle />
 
         <Navbar.Collapse>
           <Navbar.Link href="#" active>
@@ -35,7 +37,7 @@ const Nav = () => {
             <Dropdown.Divider />
             <Dropdown.Item>Sign out</Dropdown.Item>
           </Dropdown>
-          <Navbar.Toggle />
+          {/* <Navbar.Toggle /> */}
         </div>
           </Navbar.Link>
           <Navbar.Link href="#">Contact</Navbar.Link>
@@ -43,6 +45,10 @@ const Nav = () => {
 
       </Navbar>
     </div>
+
+    {/* Practice item */}
+    
+    </>
   );
 };
 
