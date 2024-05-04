@@ -6,6 +6,7 @@ import CountingNumber from "./components/CountingNumber";
 import FooterH from "./components/FooterH";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
+import Services from "./components/Services";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -33,6 +34,9 @@ function App() {
         <About></About>
       </div>
 
+    <div id ="Services">
+      <Services></Services>
+    </div>
       <CountingNumber></CountingNumber>
       <Contact></Contact>
 

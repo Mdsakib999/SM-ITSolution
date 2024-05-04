@@ -26,7 +26,7 @@ const Nav = () => {
             Home
           </Navbar.Link>
           <Navbar.Link className="text-xl font-semibold" href="#About">About</Navbar.Link>
-          <Navbar.Link className="text-xl font-semibold" href="#">
+          <Navbar.Link className="text-xl font-semibold" href="#Services">
           <div className="flex md:order-2">
           <Dropdown
             arrowIcon={true}
