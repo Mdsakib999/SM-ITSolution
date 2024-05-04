@@ -4,7 +4,7 @@ import { Avatar, Dropdown, Navbar } from "flowbite-react";
 const Nav = () => {
   return (
     <>
-    <div className="sticky top-0 w-full bg-white py-1">
+    <div className="sticky top-0 w-full bg-white py-1 z-10">
       <div className="w-[92%] mx-auto">
       <Navbar fluid rounded>
         <Navbar.Brand href="#">
@@ -14,7 +14,7 @@ const Nav = () => {
             alt="SM IT Logo"
           />
 
-          <span className="self-center font-mono whitespace-nowrap text-xl font-semibold dark:text-white">
+          <span className="self-center font-mono whitespace-nowrap text-xl font-semibold dark:text-white text-transparent bg-clip-text bg-gradient-to-r from-orange-500 from-10%  to-yellow-300 to-90%">
             SM IT SOLUTION
           </span>
         </Navbar.Brand>
@@ -25,7 +25,7 @@ const Nav = () => {
           <Navbar.Link className="text-xl font-semibold" href="#" active>
             Home
           </Navbar.Link>
-          <Navbar.Link className="text-xl font-semibold" href="#">About</Navbar.Link>
+          <Navbar.Link className="text-xl font-semibold" href="#About">About</Navbar.Link>
           <Navbar.Link className="text-xl font-semibold" href="#">
           <div className="flex md:order-2">
           <Dropdown
