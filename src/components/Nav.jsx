@@ -4,7 +4,8 @@ import { Avatar, Dropdown, Navbar } from "flowbite-react";
 const Nav = () => {
   return (
     <>
-    <div>
+    <div className="sticky top-0 w-full bg-white py-1">
+      <div className="w-[92%] mx-auto">
       <Navbar fluid rounded>
         <Navbar.Brand href="#">
           <img
@@ -13,19 +14,19 @@ const Nav = () => {
             alt="SM IT Logo"
           />
 
-          <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-            SM IT Solution
+          <span className="self-center font-mono whitespace-nowrap text-xl font-semibold dark:text-white">
+            SM IT SOLUTION
           </span>
         </Navbar.Brand>
 
         <Navbar.Toggle />
 
-        <Navbar.Collapse>
-          <Navbar.Link href="#" active>
+        <Navbar.Collapse >
+          <Navbar.Link className="text-xl font-semibold" href="#" active>
             Home
           </Navbar.Link>
-          <Navbar.Link href="#">About</Navbar.Link>
-          <Navbar.Link href="#">
+          <Navbar.Link className="text-xl font-semibold" href="#">About</Navbar.Link>
+          <Navbar.Link className="text-xl font-semibold" href="#">
           <div className="flex md:order-2">
           <Dropdown
             arrowIcon={true}
@@ -40,10 +41,11 @@ const Nav = () => {
           {/* <Navbar.Toggle /> */}
         </div>
           </Navbar.Link>
-          <Navbar.Link href="#">Contact</Navbar.Link>
+          <Navbar.Link className="text-xl font-semibold" href="#">Contact</Navbar.Link>
         </Navbar.Collapse>
 
       </Navbar>
+      </div>
     </div>
 
     {/* Practice item */}

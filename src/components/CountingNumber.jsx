@@ -3,26 +3,26 @@ import CountUp from 'react-countup';
 
 const CountingNumber = () => {
     return (
-        <div className="bg-slate-100 py-20 flex justify-around flex-col lg:flex-row gap-y-10 lg:gap-y-0">
-      <div className="w-[80%] mx-auto lg:mx-0  lg:w-[18%] text-center text-white text-3xl font-semibold rounded-lg shadow-lg py-6 bg-gradient-to-r from-green-600 to-lime-400 hover:from-lime-300 hover:to-green-600">
+        <div className=" bg-slate-100 py-20 flex justify-around flex-col lg:flex-row gap-y-10 lg:gap-y-0">
+      <div className="w-[80%] mx-auto lg:mx-0  lg:w-[18%] text-center text-white text-3xl font-bold rounded-lg shadow-lg py-6 bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-yellow-300 hover:to-orange-500">
       <h1 className="text-6xl mb-2">
-        <CountUp enableScrollSpy={true} end={5000}></CountUp>+
+        <CountUp enableScrollSpy={true} end={100}></CountUp>+
       </h1>
-      <p className="lg:text-xl text-lg font-bold">Happy Customers</p>
+      <p className="lg:text-xl text-lg font-bold">Happy Clients</p>
       </div>
-      <div className="w-[80%] mx-auto lg:mx-0  lg:w-[18%] text-center text-white text-3xl font-bold rounded-lg shadow-lg py-6 bg-gradient-to-r from-green-600 to-lime-400 hover:from-lime-300 hover:to-green-600">
+      <div className="w-[80%] mx-auto lg:mx-0  lg:w-[18%] text-center text-white text-3xl font-bold rounded-lg shadow-lg py-6 bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-yellow-300 hover:to-orange-500">
       <h1 className="text-6xl mb-2"><CountUp enableScrollSpy={true} end={37}></CountUp>+</h1>
-      <p className="text-lg lg:text-2xl">Medicine Product</p>
+      <p className="text-lg lg:text-2xl">Finished Projects</p>
       </div>
 
-       <div className="w-[80%] mx-auto lg:mx-0  lg:w-[18%] text-center text-white text-3xl font-bold rounded-lg shadow-lg py-6 bg-gradient-to-r from-green-600 to-lime-400 hover:from-lime-300 hover:to-green-600">
+       <div className="w-[80%] mx-auto lg:mx-0  lg:w-[18%] text-center text-white text-3xl font-bold rounded-lg shadow-lg py-6 bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-yellow-300 hover:to-orange-500">
       <h1 className="text-6xl mb-2"><CountUp enableScrollSpy={true} end={30}></CountUp>+</h1>
-      <p className="text-lg lg:text-xl">Imported Countries</p>
+      <p className="text-lg lg:text-xl">Team Members</p>
       </div>
 
-      <div className="w-[80%] mx-auto lg:mx-0  lg:w-[18%] text-center text-white text-3xl font-bold rounded-lg shadow-lg py-6 bg-gradient-to-r from-green-600 to-lime-400 hover:from-lime-300 hover:to-green-600">
-      <h1 className="text-6xl mb-2"><CountUp enableScrollSpy={true} end={20}></CountUp>+</h1>
-      <p className="text-lg lg:text-xl">Years of Experience</p>
+      <div className="w-[80%] mx-auto lg:mx-0  lg:w-[18%] text-center text-white text-3xl font-bold rounded-lg shadow-lg py-6 bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-yellow-300 hover:to-orange-500">
+      <h1 className="text-6xl mb-2"><CountUp enableScrollSpy={true} end={5}></CountUp>+</h1>
+      <p className="text-lg lg:text-xl">Years Of Experience</p>
       </div>
 
       </div>

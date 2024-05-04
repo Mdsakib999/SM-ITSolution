@@ -1,4 +1,5 @@
 import './App.css'
+import About from './components/About'
 import Contact from './components/Contact'
 import CountingNumber from './components/CountingNumber'
 import FooterH from './components/FooterH'
@@ -13,6 +14,8 @@ function App() {
       <Nav></Nav>
 
       <Home></Home>
+
+      <About></About>
 
       <CountingNumber></CountingNumber>
       <Contact></Contact>
