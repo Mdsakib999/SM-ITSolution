@@ -3,8 +3,8 @@ import CountUp from 'react-countup';
 
 const CountingNumber = () => {
     return (
-        <div className=" bg-slate-100 py-20 flex justify-around flex-col lg:flex-row gap-y-10 lg:gap-y-0">
-      <div className="w-[80%] mx-auto lg:mx-0  lg:w-[18%] text-center text-white text-3xl font-bold rounded-lg shadow-lg py-6 bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-yellow-300 hover:to-orange-500">
+        <div className=" bg-black py-28 flex justify-around flex-col lg:flex-row gap-y-10 lg:gap-y-0">
+      <div className=" w-[80%] mx-auto lg:mx-0  lg:w-[18%] text-center text-white text-3xl font-bold rounded-lg shadow-lg py-6 bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-yellow-300 hover:to-orange-500">
       <h1 className="text-6xl mb-2">
         <CountUp enableScrollSpy={true} end={100}></CountUp>+
       </h1>

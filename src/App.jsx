@@ -38,7 +38,10 @@ function App() {
       <Services></Services>
     </div>
       <CountingNumber></CountingNumber>
+
+      <div id="contact">
       <Contact></Contact>
+      </div>
 
       <FooterH></FooterH>
     </div>

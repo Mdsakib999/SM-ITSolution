@@ -41,7 +41,7 @@ const Nav = () => {
           {/* <Navbar.Toggle /> */}
         </div>
           </Navbar.Link>
-          <Navbar.Link className="text-xl font-semibold" href="#">Contact</Navbar.Link>
+          <Navbar.Link className="text-xl font-semibold" href="#contact">Contact</Navbar.Link>
         </Navbar.Collapse>
 
       </Navbar>
