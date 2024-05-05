@@ -14,7 +14,7 @@ const Home = () => {
                 <p className='text-4xl font-bold my-7'><span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-500 from-10%  to-yellow-300 to-90% ...'>SM IT SOLUTION</span> Is Your Best Partner.</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident sint quis cumque, beatae iste dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. In, asperiores.</p>
 
-                <button className="my-5 bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-yellow-300 hover:to-orange-500 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline" >Get In Touch</button>
+                <button className="my-5 bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-yellow-300 hover:to-orange-500 text-white font-bold py-2 px-6 rounded-ss-xl rounded-ee-xl focus:outline-none focus:shadow-outline" >Get In Touch</button>
 
                 {/* Home Icon */}
                 <div className="mt-7 flex text-5xl w-[80%] mx-auto justify-around lg:justify-between lg:w-[45%] lg:mx-0 mb-8">

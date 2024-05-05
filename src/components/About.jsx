@@ -2,8 +2,8 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className=' w-full bg-black'>
-            <section className="overflow-hidden lg:w-[90%] mx-auto pt-20 pb-4 lg:pt-0 lg:pb-[90px] bg-black text-white">
+        <div className='b w-full bg-black'>
+            <section className="overflow-hidden lg:w-[90%] mx-auto pt-20 pb-4 lg:pt-0 bg-black text-white">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
@@ -58,7 +58,7 @@ const About = () => {
                   matches your business.
                 </p>
                 
-                <button className="my-5 bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-yellow-300 hover:to-orange-500 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline" >Get In Touch</button>
+                <button className="my-5 bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-yellow-300 hover:to-orange-500 text-white font-bold py-2 px-6 rounded-ss-xl rounded-ee-xl focus:outline-none focus:shadow-outline" >Get In Touch</button>
               </div>
             </div>
           </div>
