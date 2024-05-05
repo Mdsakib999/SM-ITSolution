@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='b w-full bg-black'>
+        <div className='w-full bg-black'>
             <section className="overflow-hidden lg:w-[90%] mx-auto pt-20 pb-4 lg:pt-0 bg-black text-white">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
@@ -41,8 +41,8 @@ const About = () => {
 
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
-                <span className="block mb-4 text-2xl text-primary font-bold">
-                  -- About Us --
+                <span className="block mb-4 text-2xl text-primary font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500  to-yellow-300 to-10%">
+                  -- ABOUT US --
                 </span>
                 <h2 className="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
                   Make your customers happy by giving services.
