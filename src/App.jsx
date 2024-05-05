@@ -7,6 +7,7 @@ import FooterH from "./components/FooterH";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 import Services from "./components/Services";
+import LoadingComponent from "./components/LoadingComponent";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -16,10 +17,10 @@ function App() {
     setTimeout(() => {
       
       setIsLoading(false);
-    }, 2000);
+    }, 3000);
   }, []);
  if (isLoading) {
-  return <p>Loading</p>
+  return <LoadingComponent></LoadingComponent>
  }
   
  
