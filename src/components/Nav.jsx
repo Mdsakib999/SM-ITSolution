@@ -4,7 +4,7 @@ import { Avatar, Dropdown, Navbar } from "flowbite-react";
 const Nav = () => {
   return (
     <>
-    <div className="sticky top-0 w-full bg-white py-1 z-10">
+    <div className="sticky top-0 w-full bg-white py-1 z-30">
       <div className="w-[92%] mx-auto">
       <Navbar fluid rounded>
         <Navbar.Brand href="#">

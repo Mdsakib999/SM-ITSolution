@@ -39,7 +39,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+            <div className="w-full px-4 lg:w-1/2 xl:w-5/12 ">
               <div className="mt-10 lg:mt-0">
                 <span className="block mb-4 text-2xl text-primary font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500  to-yellow-300 to-10%">
                   -- ABOUT US --
