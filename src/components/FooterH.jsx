@@ -28,20 +28,17 @@ const FooterH = () => {
             </div>
 
             <LinkGroup header="Resources">
-              <NavLink link="" label="SaaS Development" />
-              <NavLink link="" label="Our Products" />
-              <NavLink link="" label="User Experience" />
-              <NavLink link="" label="User Strategy" />
+              <NavLink link="#" label="Our Products" />
+              <NavLink link="#" label="User Experience" />
+              <NavLink link="#" label="User Strategy" />
             </LinkGroup>
             <LinkGroup header="Company">
-              <NavLink link="/#" label="About TailGrids" />
-              <NavLink link="/#" label="Contact & Support" />
+              <NavLink link="#About" label="About SM IT Solution" />
+              <NavLink link="#contact" label="Contact & Support" />
               <NavLink link="/#" label="Success History" />
-              <NavLink link="/#" label="Setting & Privacy" />
             </LinkGroup>
             <LinkGroup header="Quick Links">
               <NavLink link="/#" label="Premium Support" />
-              <NavLink link="/#" label="Our Services" />
               <NavLink link="/#" label="Our Team" />
               <NavLink link="/#" label="Career" />
             </LinkGroup>

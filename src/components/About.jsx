@@ -45,17 +45,14 @@ const About = () => {
                   -- ABOUT US --
                 </span>
                 <h2 className="mb-5 text-xl lg:text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
-                  Make your customers happy by giving services.
+                Empowering your digital journey with precision solutions.
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less.
+                At SM IT Solutions, we believe that innovation drives success. We specialize in specialized IT services that utilize cutting-edge technologies. Our devoted teams collaborate closely with customers to understand their requirements and provide dependable, effective solutions that surpass expectations. Our passion for finding solutions and our commitment to providing innovative IT services drive us as a quick-witted company, ensuring companies thrive in the modern digital landscape.
+
                 </p>
                 <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                  A domain name is one of the first steps to establishing your
-                  brand. Secure a consistent brand image with a domain name that
-                  matches your business.
+                We are more than just service providers, we are also partners in digital transformation. Join us and discover the power of innovation firsthand. Join us on this exciting journey as we transform the way businesses use technology. Let's bring out the best in your business together, so that the future is brighter and more interconnected.
                 </p>
                 
                 <button className="my-5 bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-yellow-300 hover:to-orange-500 text-white font-bold py-2 px-6 rounded-ss-xl rounded-ee-xl focus:outline-none focus:shadow-outline" >Get In Touch</button>

@@ -8,9 +8,9 @@ const Contact = () => {
     <div>
       <div className="text-center mt-16 mb-10">
         <h1 className="text-3xl lg:text-5xl font-bold">Contact Us</h1>
-        <p className="text-lg text-gray-500 mt-3">
-          From Seed to Success, We're Here to Help. Rooted in Relationships,
-          Start the Conversation, Growing Together.
+        <p className="text-lg text-gray-500 pt-3  lg:w-[45%] w-[95%] m-auto ">
+          From Seed to Success, We're Here to Help. To make the future brighter and more connected, let's work together to bring out the best in your company.
+
         </p>
       </div>
 
@@ -29,8 +29,8 @@ const Contact = () => {
               <p className="font-bold text-xl lg:mt-7 mt-4 mb-4">
                 Email Address
               </p>
-              <p className="text-lg">smitsolution@gmail.com</p>
-              <p className="text-lg">hrsolution@gmail.com</p>
+              <p className="text-lg">shariar@smitsolution.com.bd</p>
+              <p className="text-lg">shariar.smitsolution@gmail.com</p>
             </div>
 
             <div>
@@ -38,8 +38,8 @@ const Contact = () => {
               <p className="font-bold text-xl lg:mt-7 mt-4 mb-4">
                 Phone Number
               </p>
-              <p className="text-lg">+88 8796452245</p>
-              <p className="text-lg">+88 8796452245</p>
+              <p className="text-lg">+88 01842113575</p>
+              <p className="text-lg">+88 01312113575</p>
             </div>
 
             <div>
@@ -49,6 +49,10 @@ const Contact = () => {
               </p>
               <p className="text-lg">
                 Nasirabad Properties Road 1, House B5 <br /> Chittagong,
+                Bangladesh.
+              </p>
+              <p className="text-lg mt-2">
+                JBS Holdings Ltd. 300/I, 14 Block-A, Bashundhara <br /> Dhaka,
                 Bangladesh.
               </p>
             </div>
