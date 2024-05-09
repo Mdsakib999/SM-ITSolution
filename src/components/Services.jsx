@@ -59,9 +59,8 @@ const Services = () => {
             <MdDevices className="lg:text-6xl text-5xl text-orange-500" />
             <h1 className="my-5  font-bold text-2xl lg:text-3xl">UI / UX Design</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Similique, explicabo perferendis. Voluptatibus doloribus molestiae
-              reiciendis.
+              Changing digital interactions by making apps that are easy to use and look good. Our UI/UX services combine creativity and usefulness to make users more engaged and satisfied, making sure they can easily find their way around and have great experiences.
+
             </p>
 
             <p className=" mt-4 flex items-center gap-x-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 from-10%  to-yellow-300 to-90% ">

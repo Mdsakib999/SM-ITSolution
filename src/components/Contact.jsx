@@ -17,7 +17,7 @@ const Contact = () => {
       <div className=" w-[90%] mx-auto justify-between flex lg:gap-x-10 flex-col md:flex-row items-center ">
         <div className="lg:w-[35%] ">
           <img
-            src="https://img.freepik.com/free-vector/flat-man-illustration-customer-support_23-2148889244.jpg?w=900&t=st=1714752854~exp=1714753454~hmac=693c2d8ef0bb8d6f6b35a6a9c7327271968b6981c4306178ab77c84102bda23c"
+            src="https://i.ibb.co/k9ybqq6/flat-man-illustration-customer-support-23-2148889244.jpg"
             alt=""
           />
         </div>
