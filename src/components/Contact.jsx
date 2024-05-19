@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div>
       <div className="text-center mt-16 mb-10">
-        <h1 className="text-3xl lg:text-5xl font-bold">Contact Us</h1>
+        <h1 className="text-3xl lg:text-5xl font-bold animate-fade-up">Contact Us</h1>
         <p className="text-lg text-gray-500 pt-3  lg:w-[45%] w-[95%] m-auto ">
           From Seed to Success, We're Here to Help. To make the future brighter and more connected, let's work together to bring out the best in your company.
 
@@ -65,7 +65,7 @@ const Contact = () => {
       {/* Address part */}
       <div className=" lg:w-[90%] md:w-[95%] mx-auto flex flex-col md:flex-row items-center gap-7 lg:gap-8 justify-between my-16">
         <div className="md:w-1/2  px-3 md:px-0">
-          <div className="text-2xl font-bold mb-6 text-center md:text-left">-- Get In Touch --</div>
+          <div className="text-2xl font-bold mb-6 text-center md:text-left ">-- Get In Touch --</div>
           <form action="#" className="w-full ">
             <div className="flex flex-wrap -mx-2 mb-6">
               <div className="w-full md:w-1/2 px-2 mb-4 md:mb-0">
@@ -122,7 +122,7 @@ const Contact = () => {
            
             allowfullscreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerpolicy="no-referrer-when-downgrade" 
           ></iframe>
         </div>
       </div>

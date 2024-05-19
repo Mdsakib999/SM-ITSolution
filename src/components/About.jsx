@@ -41,10 +41,10 @@ const About = () => {
 
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12 ">
               <div className="mt-10 lg:mt-0">
-                <span className="block mb-4 text-2xl text-primary font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500  to-yellow-300 to-10%">
+                <span className="block mb-4 text-2xl text-primary font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500  to-yellow-300 to-10% animate-fade-down animate-once animate-delay-1000 animate-ease-in">
                   -- ABOUT US --
                 </span>
-                <h2 className="mb-5 text-xl lg:text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
+                <h2 className="mb-5 text-xl lg:text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px] animate-fade-right animate-once animate-delay-1000 animate-ease-in">
                 Empowering your digital journey with precision solutions.
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">

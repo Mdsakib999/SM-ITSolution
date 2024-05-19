@@ -10,17 +10,17 @@ const Home = () => {
       <div className=" lg:mt-8 lg:h-[65vh] pt-8 w-[90%] mx-auto lg:flex items-center gap-4 justify-between">
         {/* Text */}
         <div className=" lg:w-[50%] ">
-          <h1 className="lg:text-5xl lg:leading-[55px] text-2xl font-semibold ">
+          <h1 className="lg:text-5xl lg:leading-[55px] text-2xl font-semibold animate-fade-right animate-delay-0 animate-ease-linear">
             Are You Looking For Qualified IT Service Provider?
           </h1>
-          <p className="lg:text-4xl text-2xl font-semibold lg:my-7 my-3">
+          <p className="lg:text-4xl text-2xl font-semibold lg:my-7 my-3 animate-fade-right animate-delay-0 animate-ease-linear">
             <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-orange-500 from-10%  to-yellow-300 to-90%">
             SM IT SOLUTION
             </span>{" "}
             
             Your Trusted Partner in Digital Innovation!
-
           </p>
+
           <p className="">
             At SM IT SOLUTION, you can discover state-of-the-art technological solutions that will propel your company to new heights. Our goal is to help businesses succeed in the digital world by solving their challenges and providing them with innovative IT services.
           </p>
@@ -30,7 +30,7 @@ const Home = () => {
           </button>
 
           {/* Home Icon */}
-          <div className="mt-7 flex text-5xl w-[80%] mx-auto justify-around lg:justify-between lg:w-[45%] lg:mx-0 mb-8">
+          <div className="mt-7 flex text-5xl w-[80%] mx-auto justify-around lg:justify-between lg:w-[45%] lg:mx-0 mb-8 animate-fade-down animate-once">
             <a
               className="rounded-full shadow-xl text-blue-600 hover:tada"
               to="https://www.facebook.com/tazangroup.bd/"
@@ -67,7 +67,7 @@ const Home = () => {
         </div>
 
         {/* Home images */}
-        <div className="lg:w-[48%]">
+        <div className="lg:w-[48%] animate-fade-down animate-once">
           <img
             className=" w-full"
             src=" https://i.ibb.co/xh6kMYH/Screenshot-2024-02-01-at-10-52-45-removebg-preview.png"
