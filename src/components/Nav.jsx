@@ -36,7 +36,6 @@ const Nav = () => {
             <Dropdown.Item>Web Design</Dropdown.Item>
             <Dropdown.Item>Digital Marketing</Dropdown.Item>
             <Dropdown.Divider />
-            <Dropdown.Item>Sign out</Dropdown.Item>
           </Dropdown>
           {/* <Navbar.Toggle /> */}
         </div>
@@ -48,8 +47,6 @@ const Nav = () => {
       </div>
     </div>
 
-    {/* Practice item */}
-    
     </>
   );
 };

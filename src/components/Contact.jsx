@@ -14,15 +14,17 @@ const Contact = () => {
         </p>
       </div>
 
-      <div className=" w-[90%] mx-auto justify-between flex lg:gap-x-10 flex-col md:flex-row items-center ">
-        <div className="lg:w-[35%] ">
+      <div className="lg:w-[35%]  mx-auto">
           <img
             src="https://i.ibb.co/k9ybqq6/flat-man-illustration-customer-support-23-2148889244.jpg"
             alt=""
           />
         </div>
 
-        <div className="lg:w-[60%]">
+      <div className=" w-[90%] mx-auto ">
+        
+
+        <div className="lg:w-[90%]  lg:mx-auto lg:mt-16">
           <div className="lg:flex justify-between text-center">
             <div>
               <MdEmail className="lg:text-7xl text-6xl inline-block bg-orange-100 rounded-full p-3 text-orange-500 mt-10 lg:mt-0" />
@@ -61,10 +63,10 @@ const Contact = () => {
       </div>
 
       {/* Address part */}
-      <div className=" lg:w-[90%] mx-auto flex flex-col md:flex-row items-center gap-7 lg:gap-8 justify-between my-16">
-        <div className="md:w-1/2">
-          <div className="text-2xl font-bold mb-6 ">-- Get In Touch --</div>
-          <form action="#" className="w-full">
+      <div className=" lg:w-[90%] md:w-[95%] mx-auto flex flex-col md:flex-row items-center gap-7 lg:gap-8 justify-between my-16">
+        <div className="md:w-1/2  px-3 md:px-0">
+          <div className="text-2xl font-bold mb-6 text-center md:text-left">-- Get In Touch --</div>
+          <form action="#" className="w-full ">
             <div className="flex flex-wrap -mx-2 mb-6">
               <div className="w-full md:w-1/2 px-2 mb-4 md:mb-0">
                 <input
@@ -113,7 +115,7 @@ const Contact = () => {
             </div>
           </form>
         </div>
-        <div className="lg:w-[50%] w-[92%] lg:h-[300px]">
+        <div className="lg:w-[50%] md:w-[60%] w-[92%] lg:h-[300px] md:h-[230px]  mt-5 md:mt-0">
           <iframe
             className="w-full h-full"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.4512217194696!2d91.8140612695338!3d22.360994938988757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd88d0af07d61%3A0xbbf9590c4e77a64d!2sRoad%20No.%201%2C%20Chittagong!5e0!3m2!1sen!2sbd!4v1714885505967!5m2!1sen!2sbd"
